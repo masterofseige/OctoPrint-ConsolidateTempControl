@@ -24,9 +24,9 @@ $(function() {
 		$('#files div.row-fluid.upload-buttons > span.btn.btn-primary.fileinput-button.span6:nth-child(2) > span').text('Upload SD');
 		
 		// tabs adjustments
-		$('div.container.octoprint-container > div.row > div.tabbable.span8').removeClass('span8').addClass('span10');
-		$('div#tabs_content div.tab-pane:not("#tab_plugin_consolidate_temp_control")').wrapInner('<div class="span6"></div>');
-		$('div#tabs_content div.tab-pane:not("#tab_plugin_consolidate_temp_control") div.span6').wrap('<div class="row-fluid"></div>');
+		//$('div.container.octoprint-container > div.row > div.tabbable.span8').removeClass('span8').addClass('span10');
+		//$('div#tabs_content div.tab-pane:not("#tab_plugin_consolidate_temp_control")').wrapInner('<div class="span6"></div>');
+		//$('div#tabs_content div.tab-pane:not("#tab_plugin_consolidate_temp_control") div.span6').wrap('<div class="row-fluid"></div>');
 		
 		// footer adjustments
 		$('div.container.octoprint-container > div.footer').css({'padding-left':'20px','padding-right':'20px'});
