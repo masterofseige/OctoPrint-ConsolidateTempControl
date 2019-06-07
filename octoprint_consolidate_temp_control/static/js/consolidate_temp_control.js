@@ -6,8 +6,9 @@ $(function() {
         self.temperatureViewModel = parameters[1];
 		
 		// hide orginal temp and control tab
-		$('#control_link,#temp_link').hide();
-		
+		$('#control_link').hide();
+		$('#temp_link').hide();
+        
 		// page container adjustments
 		$('div.page-container').css({'min-width':'1900px'});
 		
