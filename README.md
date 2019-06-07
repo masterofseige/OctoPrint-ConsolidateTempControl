@@ -1,9 +1,6 @@
 # Consolidate Temp Control
 
-Forked version ofjneilliii's [ConslidateTempControl plugin](https://github.com/jneilliii/OctoPrint-ConsolidateTempControl). Made a few tweaks to fix Themify not being respected when changing the interface size
-
-![Screenshot](screenshot.png)
-
+Forked version of jneilliii's [ConslidateTempControl plugin](https://github.com/jneilliii/OctoPrint-ConsolidateTempControl). Made a few tweaks to fix Themify not being respected when changing the interface size and temp tab
 
 ## Setup
 
