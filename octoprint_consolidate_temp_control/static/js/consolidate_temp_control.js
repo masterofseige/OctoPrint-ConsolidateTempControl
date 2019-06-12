@@ -28,7 +28,7 @@ $(function() {
 		$('div.container.octoprint-container.row-fluid > div.row').css({'margin-left':'20px','padding-right':'20px'});
 
 		// sidebar adjustments
-		$('div.container.octoprint-container > div.row > div.accordion.span4').removeClass('span4').addClass('span2');
+		//$('div.container.octoprint-container > div.row > div.accordion.span4').removeClass('span4').addClass('span2');
 		$('#files div.row-fluid.upload-buttons > span.btn.btn-primary.fileinput-button.span6:nth-child(2) > span').text('Upload SD');
 
 		// tabs adjustments
