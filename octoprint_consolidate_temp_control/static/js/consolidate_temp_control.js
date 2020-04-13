@@ -13,8 +13,10 @@ $(function() {
 		}
 
 		// move original temp and control tab content and remove tab links.
+		$('#tabs_content > #control').appendTo('#tab_plugin_consolidate_temp_control > div.row-fluid').addClass('span6').removeClass('tab-pane');
 		$('#tabs_content > #temp, #tabs_content > #control').appendTo('#tab_plugin_consolidate_temp_control > div.row-fluid').addClass('span6').removeClass('tab-pane');
-		$('#temp_link, #control_link').remove();
+		
+        $('#temp_link, #control_link').remove();
 
 		// page container adjustments
 		$('div.page-container').css({'min-width':'1900px'});
