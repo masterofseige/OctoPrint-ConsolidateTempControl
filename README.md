@@ -7,7 +7,7 @@ Forked version of NovaViper'f fork of jneilliii's [ConslidateTempControl plugin]
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/NovaViper/OctoPrint-ConsolidateTempControl/archive/master.zip
+    https://github.com/masterofseige/OctoPrint-ConsolidateTempControl/archive/master.zip
 	
 ## Get Help
 
