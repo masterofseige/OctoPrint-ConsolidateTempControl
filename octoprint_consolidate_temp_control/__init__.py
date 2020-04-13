@@ -21,12 +21,12 @@ class ConsolidateTempControlPlugin(octoprint.plugin.TemplatePlugin,
 
 				# version check: github repository
 				type="github_release",
-				user="NovaViper",
+				user="masterofseige",
 				repo="OctoPrint-ConsolidateTempControl",
 				current=self._plugin_version,
 
 				# update method: pip
-				pip="https://github.com/NovaViper/OctoPrint-ConsolidateTempControl/archive/{target_version}.zip"
+				pip="https://github.com/masterofsiege/OctoPrint-ConsolidateTempControl/archive/{target_version}.zip"
 			)
 		)
 
