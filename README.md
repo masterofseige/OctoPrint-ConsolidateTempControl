@@ -1,6 +1,6 @@
 # Consolidate Temp Control
 
-Forked version of jneilliii's [ConslidateTempControl plugin](https://github.com/jneilliii/OctoPrint-ConsolidateTempControl). Made a few tweaks to fix Themify not being respected when changing the interface size and temp tab
+Forked version of NovaViper'f fork of jneilliii's [ConslidateTempControl plugin](https://github.com/jneilliii/OctoPrint-ConsolidateTempControl). Trying to learn to write a plugin, and want to make a Universal Control Tab, that is vertical layout instead of horizontal, for non wide screens.
 
 ## Setup
 
