@@ -14,20 +14,22 @@ $(function() {
 
 		// move original temp and control tab content and remove tab links.
 		$('#tabs_content > #control').appendTo('#tab_plugin_consolidate_temp_control > div.row-fluid').addClass('span6').removeClass('tab-pane');
-		$('#tabs_content > #temp, #tabs_content > #control').appendTo('#tab_plugin_consolidate_temp_control > div.row-fluid').addClass('span6').removeClass('tab-pane');
+		$('#tabs_content > #temp, #tabs_content > #control').appendTo('#tab_plugin_consolidate_temp_control > div.row-fluid2').addClass('span6').removeClass('tab-pane');
 		
         $('#temp_link, #control_link').remove();
 
 		// page container adjustments
-		$('div.page-container').css({'min-width':'900px'});
+		$('div.page-container').css({'min-width':'620px'});
 
 		// navbar adjustments
 		$('#navbar > div.navbar-inner > div.container').css({'width':'100%'});
-		$('#navbar > div.navbar-inner > div.row-fluid > div.nav-collapse').css({'padding-right':'20px'});
+		$('#navbar > div.navbar-inner > div.row-fluid > div.row-fluid2 > div.nav-collapse').css({'padding-right':'20px'});
 
 		// main content adjustments
 		$('div.container.octoprint-container').addClass('row-fluid');
-		$('div.container.octoprint-container.row-fluid > div.row').css({'margin-left':'20px','padding-right':'20px'});
+        $('div.container.octoprint-container').addClass('row-fluid2');
+		$('div.container.octoprint-container.row-fluid > div.row').css({'margin-left':'20px','padding-right':'20px'});        
+		$('div.container.octoprint-container.row-fluid2 > div.row').css({'margin-left':'20px','padding-right':'20px'});
 
 		// sidebar adjustments
 		//$('div.container.octoprint-container > div.row > div.accordion.span4').removeClass('span4').addClass('span2');
