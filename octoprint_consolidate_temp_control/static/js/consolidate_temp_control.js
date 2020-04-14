@@ -19,7 +19,7 @@ $(function() {
         $('#temp_link, #control_link').remove();
 
 		// page container adjustments
-		$('div.page-container').css({'min-width':'1900px'});
+		$('div.page-container').css({'min-width':'900px'});
 
 		// navbar adjustments
 		$('#navbar > div.navbar-inner > div.container').css({'width':'100%'});
